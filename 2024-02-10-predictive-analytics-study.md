@@ -3,7 +3,7 @@ title: "Predictive Analytics in Urban Planning: A Comprehensive Study"
 type: research
 description: "New research reveals how machine learning models can predict urban development patterns with 89% accuracy."
 date: 2024-02-10
-image: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&q=80"
+image: "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?auto=format&fit=crop&q=80"
 readTime: "15 min read"
 ---
 
