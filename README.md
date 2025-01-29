@@ -2,16 +2,24 @@
 
 This repository contains the articles and blog posts for the Citylens website. All content is written in Markdown format with YAML frontmatter for metadata.
 
-## Directory Structure
+## Branch Structure
 
-```
-content/
-└── articles/
-    ├── 2024-02-15-barcelona-smart-city.md
-    ├── 2024-02-10-predictive-analytics-study.md
-    ├── 2024-02-01-singapore-energy.md
-    └── 2024-01-25-damascus-recoding.md
-```
+- `main` - Production-ready content
+- `develop` - Staging and testing
+- Feature branches - Individual articles or content updates
+
+## Contributing
+
+1. Create a new feature branch from `develop`:
+   ```bash
+   git checkout develop
+   git checkout -b feature/new-article-name
+   ```
+
+2. Add your article in the `content/articles` directory
+3. Follow the naming convention: `YYYY-MM-DD-article-slug.md`
+4. Submit a pull request to the `develop` branch
+5. After review and testing, content will be merged to `main`
 
 ## Article Format
 
@@ -35,13 +43,6 @@ readTime: "X min read"
 - `research`: Academic and technical research papers
 - `projects`: Ongoing or completed project showcases
 
-## Contributing
-
-1. Create a new branch for your article
-2. Add your article in the `content/articles` directory
-3. Follow the naming convention: `YYYY-MM-DD-article-slug.md`
-4. Submit a pull request for review
-
 ## Development
 
 To run the content locally:
@@ -50,6 +51,11 @@ To run the content locally:
 npm install
 npm run dev
 ```
+
+## Deployment
+
+- Content merged to `main` is automatically deployed to production
+- Content merged to `develop` is deployed to staging for review
 
 ## License
 
