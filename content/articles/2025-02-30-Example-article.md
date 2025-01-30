@@ -1,6 +1,6 @@
 ---
 title: "A Comprehensive Guide to Urban Data Visualization"
-type: "case-study"
+type: "project"
 description: "A comprehensive guide to visualizing urban data for better decision-making in city planning and development."
 date: "2024-03-19"
 image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80"
