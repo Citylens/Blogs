@@ -3,7 +3,7 @@ title: "Revitalise and Connect"
 type: research
 description: "Strategy for Sustainable Development for the Republic of San Marino."
 date: 2025-01-30
-image: "/home/project/public/blogs/SanMarino_view.webp"
+image: "/blogs/SanMarino_view.webp"
 readTime: "10 min read"
 ---
 
