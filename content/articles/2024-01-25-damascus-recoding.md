@@ -61,8 +61,14 @@ This evaluation shows how closely each town aligns with the benchmarks establish
 
 In this manner, the proposed Strategic Framework can function as a practical, data-driven guide that translates the republic's overarching sustainability ambitions into clear and actionable steps at every scale and across all aspects of the country's urban development efforts.
 
-
-public/blogs/Evaluation current performance.webp
+<figure>
+  <img 
+    src="/blogs/Evaluation current performance.webp" 
+    alt="Data center infrastructure"
+    className="rounded-lg shadow-lg"
+  />
+  <figcaption>Modern data center powering smart city operations</figcaption>
+</figure>
 
 ## Decision-Support Tool
 
