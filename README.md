@@ -1,39 +1,32 @@
-# Citylens Articles Repository
+# Citylens Blog Articles
 
 This repository contains the articles and blog posts for the Citylens website. All content is written in Markdown format with YAML frontmatter for metadata.
 
-## Branch Structure
+## Repository Structure
 
-- `main` - Production-ready content
-- `develop` - Staging and testing
-- Feature branches - Individual articles or content updates
-
-## Contributing
-
-1. Create a new feature branch from `develop`:
-   ```bash
-   git checkout develop
-   git checkout -b feature/new-article-name
-   ```
-
-2. Add your article in the `content/articles` directory
-3. Follow the naming convention: `YYYY-MM-DD-article-slug.md`
-4. Submit a pull request to the `develop` branch
-5. After review and testing, content will be merged to `main`
+```
+├── content/
+│   └── articles/           # Blog posts and articles
+├── .github/
+│   └── workflows/          # GitHub Actions workflows
+└── README.md              # This file
+```
 
 ## Article Format
 
-Each article should include the following frontmatter:
+Each article should follow this format:
 
-```yaml
+```markdown
 ---
-title: "Article Title"
+title: "Your Article Title"
 type: "article-type"  # case-study, news, research, or projects
-description: "Brief description of the article"
-date: YYYY-MM-DD
+description: "Brief description"
+date: "YYYY-MM-DD"
 image: "URL to header image"
 readTime: "X min read"
 ---
+
+Article content goes here...
 ```
 
 ## Article Types
@@ -42,6 +35,20 @@ readTime: "X min read"
 - `news`: Current events and updates
 - `research`: Academic and technical research papers
 - `projects`: Ongoing or completed project showcases
+
+## Contributing
+
+1. Create a new branch for your article:
+   ```bash
+   git checkout -b feature/new-article-name
+   ```
+
+2. Add your article in the `content/articles` directory following the naming convention:
+   ```
+   YYYY-MM-DD-article-slug.md
+   ```
+
+3. Submit a pull request to the `main` branch
 
 ## Development
 
@@ -54,9 +61,22 @@ npm run dev
 
 ## Deployment
 
-- Content merged to `main` is automatically deployed to production
-- Content merged to `develop` is deployed to staging for review
+The site is automatically deployed through GitHub Actions when changes are pushed to the main branch. The deployment process includes:
+
+1. Building the site
+2. Running tests
+3. Deploying to production
+
+## Environment Variables
+
+Make sure to set up these environment variables in your deployment environment:
+
+```
+VITE_GITHUB_OWNER=Citylens
+VITE_GITHUB_REPO=Blogs
+VITE_GITHUB_TOKEN=your-github-token
+```
 
 ## License
 
-All content is © Citylens. All rights reserved.
+© 2024 Citylens. All rights reserved.
