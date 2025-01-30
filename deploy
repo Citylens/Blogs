@@ -1,20 +1,50 @@
-name: Deploy to Netlify
+name: Deploy Blog
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v2
-      - name: Trigger Netlify Build
-        run: |
-          curl -X POST -d {} "https://api.netlify.com/build_hooks/${NETLIFY_BUILD_HOOK}"
-        env:
-          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install Dependencies
+      run: npm ci
+    
+    - name: Build
+      run: npm run build
+      env:
+        VITE_GITHUB_OWNER: ${{ secrets.VITE_GITHUB_OWNER }}
+        VITE_GITHUB_REPO: ${{ secrets.VITE_GITHUB_REPO }}
+        VITE_GITHUB_TOKEN: ${{ secrets.VITE_GITHUB_TOKEN }}
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        cname: blog.citylens.tech # Optional: If you have a custom domain
+    
+    - name: Notify on Success
+      if: success()
+      run: |
+        echo "✅ Deploy successful!"
+        echo "🌐 Site is live at https://blog.citylens.tech"
+    
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        echo "❌ Deploy failed"
+        echo "Please check the logs for more information"
