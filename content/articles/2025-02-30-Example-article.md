@@ -1,11 +1,13 @@
 ---
-title: "Urban Data Visualization: Best Practices for City Planning"
-type: "research"
+title: "A Comprehensive Guide to Urban Data Visualization"
+type: "guide"
 description: "A comprehensive guide to visualizing urban data for better decision-making in city planning and development."
-date: "2024-03-20"
-image: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&q=80"
+date: "2024-03-19"
+image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80"
 readTime: "8 min read"
 ---
+
+# A Comprehensive Guide to Urban Data Visualization
 
 ## Introduction
 
@@ -18,17 +20,15 @@ Modern city planning requires sophisticated data visualization techniques to mak
 <figure>
   <img 
     src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80" 
-    alt="3D city visualization with data overlays"
+    alt="3D city visualization with data overlays" 
     className="rounded-lg shadow-lg"
   />
-  <figcaption className="text-sm text-gray-500 mt-2 text-center">
-    Interactive 3D city model showing traffic patterns and urban density
-  </figcaption>
+  <figcaption>Interactive 3D city model showing traffic patterns and urban density</figcaption>
 </figure>
 
 ### 2. Data Dashboards
 
-Real-time data dashboards help city planners monitor various urban metrics simultaneously. Learn more about our [interactive platform](/what-we-do#interactive-platform) for comprehensive urban analytics.
+Real-time data dashboards help city planners monitor various urban metrics simultaneously. Learn more about our interactive platform for comprehensive urban analytics.
 
 ## Implementation Guide
 
@@ -52,15 +52,13 @@ To implement these visualization techniques effectively, consider the following 
 
 ## Case Studies
 
-<figure className="my-8">
+<figure>
   <img 
     src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&q=80" 
     alt="Smart city dashboard example" 
     className="rounded-lg shadow-lg w-full"
   />
-  <figcaption className="text-sm text-gray-500 mt-2 text-center">
-    Example of a smart city dashboard implementation in Singapore
-  </figcaption>
+  <figcaption>Example of a smart city dashboard implementation in Singapore</figcaption>
 </figure>
 
 ## Conclusion
