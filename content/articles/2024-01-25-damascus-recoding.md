@@ -67,7 +67,7 @@ In this manner, the proposed Strategic Framework can function as a practical, da
     alt="Data center infrastructure"
     className="rounded-lg shadow-lg"
   />
-  <figcaption>Modern data center powering smart city operations</figcaption>
+  <figcaption> </figcaption>
 </figure>
 
 ## Decision-Support Tool
