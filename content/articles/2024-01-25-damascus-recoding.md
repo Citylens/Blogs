@@ -7,8 +7,6 @@ image: "/blogs/SanMarino_view.webp"
 readTime: "10 min read"
 ---
 
-# Strategy for Sustainable Development for the Republic of San Marino  
-
 The proposed **Strategy for Sustainable Development** for the Republic of San Marino seeks to address the country’s challenges and needs in a comprehensive and systematic manner. The principal priorities of the proposed solution were as follows:  
 
 - To establish a framework for structured data collection, analysis, and management.  
