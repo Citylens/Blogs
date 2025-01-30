@@ -1,9 +1,9 @@
 ---
-title: "Damascus Re-Coding: Data-Driven Urban Recovery"
-type: projects
-description: "Innovative post-war urban recovery strategies using advanced data analytics and parametric design."
-date: 2024-01-25
-image: "https://images.unsplash.com/photo-1534077845-c8c07c96e2c0?auto=format&fit=crop&q=80"
+title: "Revitalise and Connect"
+type: research
+description: "Strategy for Sustainable Development for the Republic of San Marino."
+date: 2025-01-30
+image: "/blogs/SanMarino_view.webp"
 readTime: "10 min read"
 ---
 
