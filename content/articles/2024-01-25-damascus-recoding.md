@@ -62,6 +62,8 @@ This evaluation shows how closely each town aligns with the benchmarks establish
 In this manner, the proposed Strategic Framework can function as a practical, data-driven guide that translates the republic's overarching sustainability ambitions into clear and actionable steps at every scale and across all aspects of the country's urban development efforts.
 
 
+public/blogs/Evaluation current performance.webp
+
 ## Decision-Support Tool
 
 To offer practical guidance and organise the efforts of various stakeholders in achieving the goals outlined in the Strategy for Sustainable Development, a prototype Decision-Support Tool was developed.
