@@ -39,9 +39,9 @@ While some of the targets are selected following global trends in sustainable ur
 <div className="my-8 space-y-4">
   <a 
     href="/files/implementation-guide.pdf" 
-    className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+    className="inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-600 transition-colors"
   >
-    Download Framework KPI's →
+     Download Framework KPI's →
   </a>
 </div>
 
@@ -80,3 +80,13 @@ The tool's interactive Builder Mode allows users to evaluate potential intervent
 
 All data incorporated into the tool is displayed on an interactive map, offering an intuitive visual representation of the Strategic Framework's benchmarks and measurement methodology for each target. The side panels provide additional information on the framework's goals and targets and provide links to relevant resources.
 
+<div className="my-8 space-y-4">
+  <a 
+    href="https://youtu.be/REgYWI5w0wY" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-600 transition-colors"
+  >
+    View Interactive Platform Demo  →
+  </a>
+</div>
