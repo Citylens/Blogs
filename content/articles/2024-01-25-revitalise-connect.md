@@ -1,6 +1,6 @@
 ---
 title: "Revitalise and Connect"
-type: research
+type: case-study
 description: "Strategy for Sustainable Development for the Republic of San Marino."
 date: 2025-01-30
 image: "/blogs/SanMarino_view.webp"
