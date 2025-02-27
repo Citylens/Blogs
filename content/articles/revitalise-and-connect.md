@@ -7,7 +7,7 @@ image: "/blogs/SanMarino_view.webp"
 readTime: "10 min read"
 ---
 
-The founders of **Citylens** worked on this project while at the **Norman Foster Institute**. The following is a brief synopsis of the work. All rights to the original project and its content are reserved by the **Norman Foster Foundation**.
+The founders of **Citylens** worked on this project while at the **Norman Foster Institute**. The following is a brief synopsis of the work. All rights to the original project and its content are reserved by the **Norman Foster Foundation**. Team members: Gaëtan Pelletey, Ziwar Al Nouri, Mihail Dyankov, Anastasiya Karapetava, Ivan Tamayo Ramos, Marco Zaki
 
 The proposed **Strategy for Sustainable Development** for the Republic of San Marino seeks to address the country’s challenges and needs in a comprehensive and systematic manner. The principal priorities of the proposed solution were as follows:  
 
